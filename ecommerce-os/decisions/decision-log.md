@@ -92,3 +92,24 @@ LESSON:          Verificar SIEMPRE costo real de proveedor y existencia de SKU d
                  si un producto puede o no ser defendible.
 NEXT ACTION:     Usuario decide A/B/C. Si A -> verificar costos Alibaba/1688 antes de comprar.
 ```
+
+---
+
+## D-006 — Cambio de unidad de decisión: vertical con recompra
+
+```
+DATE:            2026-09-14
+DECISION:        Dejar de cazar "producto héroe"; comprometer un VERTICAL con LTV.
+                 Vertical elegido: MASCOTAS. Modelo: adquisición por producto-cuña ->
+                 recompra por consumibles/accesorios -> bundle -> suscripción.
+WHY:             Dropi solo da productos de una sola venta; el problema no era el producto
+                 sino la ausencia de recompra. Pet es el único de los 5 con LTV estructural
+                 y el endgame defendible más claro (marca pet D2C). Fiel a "defendibilidad".
+DATA:            Research: margen pet 40-60%, baja sensibilidad al precio, recompra real.
+ASSUMPTION:      El motor de recompra arranca por aseo/accesorios (ingeribles = registro ICA).
+EXPECTED RESULT: El producto-cuña solo adquiere; la rentabilidad vive en la recompra.
+ACTUAL RESULT:   PENDING — falta elegir producto-cuña con datos de Dropi + confirmación usuario.
+LESSON:          Si el canal no ofrece SKU de recompra, subir el nivel: elegir vertical, no producto.
+NEXT ACTION:     (1) Usuario confirma o redirige el vertical. (2) Buscar producto-cuña pet en
+                 Dropi (cepillo/cortauñas/fuente) y pasar costo/sugerido para puntuar.
+```
