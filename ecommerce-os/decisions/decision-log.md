@@ -38,17 +38,33 @@ NEXT ACTION:     Verificar competencia/costo en Dropi; luego test de oferta.
 
 ---
 
-## D-003 — [ABIERTA / P0] Velocidad vs. defendibilidad
+## D-003 — [RESUELTA / P0] Velocidad vs. defendibilidad
 
 ```
 DATE:            2026-09-14
-DECISION:        SIN RESOLVER. Filtro de ducha (defendible, LTV, validación lenta)
-                 vs. Picadora (caja rápida, red ocean, sin LTV).
-WHY:             Bloquea tienda, oferta y creativos. Es el cuello de botella actual.
-DATA:            Scorecards 84 vs 76.
-ASSUMPTION:      -
-EXPECTED RESULT: -
-ACTUAL RESULT:   BLOQUEA EJECUCIÓN
+DECISION:        RESUELTA → DEFENDIBILIDAD. Se valida el filtro de ducha.
+WHY:             El usuario prioriza construir activo/empresa (LTV, marca) sobre caja rápida.
+DATA:            Scorecards 84 (ahora ~80) vs 76.
+ASSUMPTION:      Se acepta validación más lenta (mercado problem-unaware).
+EXPECTED RESULT: Avanzar a verificación de mercado → oferta → test.
+ACTUAL RESULT:   Ejecutado; ver D-004.
 LESSON:          -
-NEXT ACTION:     El usuario elige prioridad: caja este mes vs. activo a 12 meses.
+NEXT ACTION:     Verificar competencia/precio CO (D-004).
+```
+
+---
+
+## D-004 — Corrección de tesis tras verificar mercado CO
+
+```
+DATE:            2026-09-14
+DECISION:        Mantener filtro de ducha, pero corregir tesis: NO es white space.
+WHY:             Verificación pública: commodity activa en MercadoLibre CO + EASY retail.
+DATA:            Múltiples listings ML CO; EASY vende anti-cloro; Jolie prueba modelo branded.
+ASSUMPTION:      El moat viable es marca + educación + suscripción de cartuchos.
+EXPECTED RESULT: Score baja 84→~80; nuevo riesgo #1 = poder de fijación de precio.
+ACTUAL RESULT:   PENDING — a probar en test de oferta.
+LESSON:          No puntuar "white space" sin verificar oferta local primero. Corregido en caliente.
+NEXT ACTION:     Conseguir precio ancla real en COP (usuario) + decidir posicionamiento
+                 premium vs. paridad antes de montar tienda/oferta.
 ```

@@ -35,13 +35,30 @@ entregado y pagado** = CPA_lead ÷ (tasa confirmación × tasa entrega), no el C
 2. 🥈 Picadora multifunción (chopper) — 76/100
 3. 🥉 Máscara LED facial — 71/100
 
+## Verificación de competencia en Colombia (2026-09-14)
+
+**FACT (web pública):**
+- MercadoLibre Colombia tiene múltiples listings activos: "filtro ducha cloro",
+  "filtro agua ducha", "filtro elimina cloro", "filtro para duchas elimina el cloro".
+- EASY Colombia (retail físico) vende "Filtro para ducha anti-cloro".
+- Referente de marca global: **Jolie** (US) — filtro premium, "clinically tested",
+  ~46% menos caída reportada, +158 publicaciones. Prueba que el modelo BRANDED premium
+  funciona; el mercado CO en cambio es commodity sin marca.
+
+**Conclusión corregida:** NO es white space. La tesis cambia de "ser primero" a
+**"ser la primera MARCA que educa el problema y captura recompra por cartuchos"**.
+Moat = brand + educación + suscripción, no primer movimiento.
+
+**Riesgo #1 nuevo — poder de fijación de precio:** si el cliente compara en ML un filtro
+de aspecto idéntico más barato, el bundle de ~120k COP necesita diferenciación fuerte
+para sostenerse. **Este es el primer supuesto a probar** en el test de oferta.
+
 ## Supuestos que aún NO están verificados (PENDING)
 
-- Competencia real y # de proveedores en Dropi/Mastershop para "filtro de ducha".
-- Costo de producto real (importado / catálogo Dropi).
+- **Precio ancla exacto en COP** en ML/Falabella/EASY (ML CO bloqueado por egress proxy;
+  requiere que el usuario lo consulte o acceso alterno). Crítico para pricing.
+- Costo de producto real (importado / catálogo Dropi) — requiere login de Dropi del usuario.
 - Densidad de anunciantes activos en Meta Ad Library CO.
-> Estos cierran el score de Competencia. Requieren login de Dropi (del usuario) o
-> autorización para revisar Ad Library.
 
 ## Fuentes
 
