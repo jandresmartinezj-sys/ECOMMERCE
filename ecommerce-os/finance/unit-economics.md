@@ -1,18 +1,32 @@
 # Unit Economics
 
-**Producto modelado:** Filtro de ducha anti-cloro/cal (bundle: filtro + 2 cartuchos)
-**Moneda:** COP · **Modelo:** contraentrega (COD) · **Tipo:** ESTIMATE (supuestos abajo)
+**Producto modelado:** Filtro de ducha anti-cloro/cal
+**Moneda:** COP · **Modelo:** contraentrega (COD)
 
-## Base case
+> ⚠️ **DATOS REALES DE DROPI (2026-09-14) — el modelo ESTIMATE inicial estaba MAL.**
+> Proveedor único: CYBERMARKET (PRIMO'S). Solo 2 SKUs, **sin cartuchos de repuesto**.
+> - Combo Filtro Ajustable: costo **$42.000**, sugerido $62.000, stock 85
+> - Filtro Universal: costo **$30.000**, sugerido $30.000, stock 917
+> Mi estimación previa (costo $28.000 / PVP $119.900) era fantasía en ambos extremos.
 
-| Concepto | COP |
-|---|---:|
-| PVP (bundle) | 119.900 |
-| Costo producto (importado) | −28.000 |
-| Flete recaudo contraentrega | −12.000 |
-| Comisión recaudo/plataforma (~4%) | −4.800 |
-| Empaque / misc | −3.000 |
-| **Margen bruto pre-ads** | **72.100 (60%)** |
+## Realidad con costo Dropi (FACT)
+
+| Escenario | PVP | Costo | Flete+recaudo+emp. | Bruto pre-ads | Veredicto |
+|---|---:|---:|---:|---:|---|
+| Combo al sugerido | 62.000 | 42.000 | ~15.500 | **~4.500 (7%)** | ☠️ Inviable para ads |
+| Combo forzado | 99.900 | 42.000 | ~17.000 | ~40.900 | ⚠️ Price-check risk |
+| Universal | 89.900 | 30.000 | ~16.200 | ~43.700 | 🟡 Menos malo |
+
+CAC por pedido ENTREGADO (entrega 72%, CPA_lead ~18k) ≈ **$25.000**. Solo los escenarios
+forzados dejan contribución, y sin cartucho no hay LTV que lo justifique.
+**Conclusión: vía Dropi el filtro NO es viable como negocio defendible.** Ver decision-log D-005.
+
+## Modelo private-label (opción A — objetivo real)
+
+ESTIMATE por verificar en Alibaba/1688:
+- Filtro FOB ~$2–4 USD (~8.000–16.000 COP) + cartuchos propios baratos.
+- Restaura margen ~70% Y habilita recompra de cartuchos = LTV real.
+- Requiere MOQ (~$800–1.500 USD) + lead time 20–35 días. PENDING verificación de costo.
 
 ## Prueba de estrés COD (lo que las listas ignoran)
 

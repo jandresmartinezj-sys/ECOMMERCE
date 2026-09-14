@@ -68,3 +68,27 @@ LESSON:          No puntuar "white space" sin verificar oferta local primero. Co
 NEXT ACTION:     Conseguir precio ancla real en COP (usuario) + decidir posicionamiento
                  premium vs. paridad antes de montar tienda/oferta.
 ```
+
+---
+
+## D-005 — [KILL parcial / P0] Filtro vía Dropi falla la tesis
+
+```
+DATE:            2026-09-14
+DECISION:        MATAR el filtro de ducha como negocio vía Dropi dropshipping.
+                 Mantener el filtro SOLO si se hace private-label (importación).
+WHY:             Datos reales de Dropi rompen las 2 razones para elegir este producto:
+                 (1) NO hay cartuchos de repuesto -> sin LTV/suscripcion -> sin moat.
+                 (2) Costo proveedor $42k/$30k vs ancla mercado $30-62k -> margen ~7%
+                     al precio sugerido -> imposible pagar ads en COD.
+                 (3) Proveedor unico (CYBERMARKET) -> cero diferenciacion + riesgo supply.
+DATA:            Dropi: Combo costo $42.000/sug $62.000; Universal costo $30.000/sug $30.000.
+                 CAC entregado COD ~$25.000. Break-even CAC al sugerido = $4.500.
+ASSUMPTION:      Costo import private-label ~$2-4 USD/filtro (ESTIMATE, por verificar).
+EXPECTED RESULT: Elegir entre A) private-label directo, B) probe de demanda barato, C) pivot.
+ACTUAL RESULT:   PENDING decision del usuario.
+LESSON:          Verificar SIEMPRE costo real de proveedor y existencia de SKU de recompra
+                 ANTES de construir la tesis de LTV. El canal de abastecimiento define
+                 si un producto puede o no ser defendible.
+NEXT ACTION:     Usuario decide A/B/C. Si A -> verificar costos Alibaba/1688 antes de comprar.
+```
