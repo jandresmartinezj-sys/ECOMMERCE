@@ -29,6 +29,32 @@ entregado y pagado** = CPA_lead ÷ (tasa confirmación × tasa entrega), no el C
 | Sauna blanket / botella hidrógeno | Voluminoso (flete) + evidencia débil / pseudociencia |
 | Serums cosméticos ingeribles | Requieren notificación INVIMA → fricción regulatoria |
 
+## Segunda ronda de caza (2026-09-14, tras kill del filtro) — calibrada
+
+**Criterios duros aprendidos (GO/NO-GO):**
+1. Margen ≥ 3× (sugerido ÷ costo). El filtro dio 1,5× → muerto.
+2. Ticket $90k–$180k COP (FACT: Dropi subió fletes en Q4 2026 → se necesita ticket más alto).
+3. Baja culpa en la puerta (dolor/problema, no impulso arrepentible) → RTO <25%.
+4. Palanca de repeat o AOV (consumible / bundle / línea complementaria).
+5. <1 kg, sin talla, sin INVIMA pesado.
+
+**Lista de caza (verificar costo/sugerido en Dropi — solo el usuario ve ese dato):**
+
+| # | Tesis | Términos Dropi | Repeat/LTV | Ruta private-label |
+|---|---|---|---|---|
+| 1 | Masajeador cervical / EMS | masajeador cuello, cervical, electroestimulador | Bajo (cross-sell) | Marca bienestar + geles/recambio |
+| 2 | Línea mascotas (cepillo quita-pelo +) | cepillo mascotas, quita pelo, corta uñas mascota | **Alto** (snacks/accesorios) | Pet D2C con consumibles |
+| 3 | Depiladora facial / removedor vello | depiladora facial, removedor vello | Bajo | Beauty-tech + reposición |
+| 4 | Gadget hogar wow | organizador nevera, selladora bolsas, trapeador | Bajo | Débil (commodity) |
+| 5 | Corrector postura / faja | corrector postura, faja lumbar | Bajo | ⚠️ talla = riesgo RTO |
+
+**Estado:** esperando datos de Dropi del usuario (costo/sugerido/stock) para puntuar.
+Regla: el que pase GO/NO-GO con mejor margen + repeat → se compromete a test. No más caza.
+
+Fuentes 2ª ronda: Andrey Business (Dropi CO 2026), Stockeado, Overviewdata (COD research),
+Zendrop/SaleHoo (high-margin 2026). Categorías con margen: bienestar, mascotas, beauty tools,
+hogar/cocina, consumibles.
+
 ## Short-list evaluado → ver `product-scorecards.md`
 
 1. 🥇 Filtro de ducha anti-cloro/cal — 84/100
