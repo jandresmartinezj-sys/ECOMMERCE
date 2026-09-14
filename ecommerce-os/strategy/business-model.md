@@ -11,6 +11,22 @@ hero product no lo resuelve. El cambio de nivel (§37) es mover la unidad de dec
 
 **Vertical elegido: MASCOTAS (pet).** Único de los 5 candidatos con recompra estructural.
 
+### Validación de mercado (FACT — 2026)
+
+- Mercado pet Colombia: **$6,1 billones COP en 2026** (Euromonitor), 4º de LATAM.
+- **67% de hogares con mascota** (DANE 2025; era 48% en 2020) → TAM masivo y creciendo.
+- Gasto: 28% de dueños gasta $190k–374k/mes; 17% gasta $560k–745k/mes → alta disposición
+  a pagar, valida ticket y LTV.
+- Motor estructural: humanización + DINK (baja sensibilidad al precio).
+- Gatos crecen 2× más rápido que perros (10,5% vs 3,3% en 2025) → segundo avatar.
+
+### Producto-cuña definido: KIT DE ASEO ANTI-PELO
+
+Dolor-cuña (review mining): **"pelo por toda la casa"** — universal, diario, con la mejor
+demo del vertical (montaña de pelo en un cepillado). Un cepillo suelto (~$25–40k) NO pasa
+el ticket post-flete Q4 → la cuña es un **KIT** (cepillo deshedding + accesorios) a ~$79–99k:
+pega ticket, sube AOV desde día 1, instala el posicionamiento "cuidado". Ver `ads/hooks.md`.
+
 | Criterio | Pet | Masajeador/Depiladora/Gadget |
 |---|---|---|
 | Recompra estructural | ✅ Alta | ❌ Una sola venta |

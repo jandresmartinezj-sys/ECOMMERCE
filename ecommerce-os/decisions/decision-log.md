@@ -113,3 +113,24 @@ LESSON:          Si el canal no ofrece SKU de recompra, subir el nivel: elegir v
 NEXT ACTION:     (1) Usuario confirma o redirige el vertical. (2) Buscar producto-cuña pet en
                  Dropi (cepillo/cortauñas/fuente) y pasar costo/sugerido para puntuar.
 ```
+
+---
+
+## D-007 — Vertical confirmado + producto-cuña = kit de aseo anti-pelo
+
+```
+DATE:            2026-09-14
+DECISION:        Usuario confirma vertical MASCOTAS. Producto-cuña = KIT de aseo anti-pelo
+                 (cepillo deshedding + accesorios), no un cepillo suelto.
+WHY:             Mercado validado (FACT): $6,1 billones COP 2026, 67% hogares con mascota,
+                 alta disposición a pagar. Dolor-cuña con mejor demo = "pelo por toda la casa".
+                 Cepillo suelto (~$25-40k) no pasa ticket post-flete Q4 -> KIT a ~$79-99k
+                 pega ticket + AOV + posicionamiento cuidado.
+DATA:            Euromonitor, DANE 2025, review mining (verbatims en customers/psychology.md).
+ASSUMPTION:      Dropi tiene kit o SKUs combinables de aseo pet (por verificar).
+EXPECTED RESULT: Foundation listo (avatar, psicología, 5 ángulos) para test al confirmar costo.
+ACTUAL RESULT:   PENDING costo Dropi del kit/componentes.
+LESSON:          El ticket manda post-flete: la cuña se diseña como kit, no como item suelto.
+NEXT ACTION:     Buscar en Dropi: 'cepillo mascotas', 'kit aseo mascota', 'quita pelo',
+                 'guante quita pelo' -> pasar costo/sugerido/stock. Luego: precio, landing, 3 creativos.
+```
